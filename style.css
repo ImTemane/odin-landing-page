@@ -7,6 +7,11 @@
   black-text: #1F2937
 */
 
+body * {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Roboto", Verdana, Arial, sans-serif;
   display: flex;
