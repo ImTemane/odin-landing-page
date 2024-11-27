@@ -53,13 +53,15 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 .left, .right {
-  flex: 0 1 30%;
+  flex: 0 1 40%;
 }
 
 img {
-  width: 500px;
-  flex: 1 1 auto;
+  max-width: 400px;
+  border-radius: 10px;
+
 }
