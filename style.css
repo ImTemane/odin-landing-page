@@ -4,7 +4,8 @@
 /*  
   black-bg : #1F2937
   white-text: #F9FAF8
-  black-text: #1F2937
+  black-text: #1F2937 
+  blue-color: #3882f6
 */
 
 body * {
@@ -63,5 +64,13 @@ a {
 img {
   max-width: 400px;
   border-radius: 10px;
+}
 
+.btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: 1000;
 }
