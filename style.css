@@ -144,6 +144,28 @@ img {
   text-align: right;
 }
 
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.window-container {
+  background-color: #3882f6;
+  color: #F9FAF8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.border-white {
+  border: 2px solid white;
+}
+
 .footer {
   display: flex;
   justify-content: center;
