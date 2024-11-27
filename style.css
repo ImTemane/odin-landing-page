@@ -113,14 +113,15 @@ img {
 .infos-container {
   display: flex;
   justify-content: center;
-  flex: 0 0 auto;
+  flex: 0;
+  gap: 15px;
 }
 
 .infos {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-direction: 0 0 auto;
+  flex: 0;
 }
 
 .fake-img {
