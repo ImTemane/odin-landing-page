@@ -17,8 +17,12 @@ body {
   font-family: "Roboto", Verdana, Arial, sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
 }
 
 nav.navbar {
@@ -27,8 +31,8 @@ nav.navbar {
   align-items: center;
   background-color: #1F2937;
   color: #F9FAF8;
-  padding: 10px 50px;
-  flex: 0 0 auto;
+  padding: 1rem 4rem;
+  flex: 0 20vh;
 }
 
 .logo {
@@ -51,6 +55,14 @@ li a  {
   color: #b2b5b0
 }
 
+.main  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  min-height: 100%;
+}
+
 .main .hero {
   background-color: #1F2937;
   color: #F9FAF8;
@@ -59,6 +71,8 @@ li a  {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  flex: 1 0 60vh;
+  padding: 2rem;
 }
 
 .left, .right {
@@ -102,6 +116,7 @@ img {
 }
 
 .info {
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,6 +163,7 @@ img {
   justify-content: center;
   align-items: center;
   background-color: #E5E7EB;
+  padding: 4rem 0;
 }
 
 .quote-text {
@@ -161,6 +177,7 @@ img {
 }
 
 .call-to-action {
+  padding: 4em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -183,6 +200,7 @@ img {
 }
 
 .footer {
+  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
