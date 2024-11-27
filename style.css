@@ -97,6 +97,10 @@ img {
   font-weight: 1000;
 }
 
+.left .btn {
+  align-self: flex-start;
+}
+
 .info {
   display: flex;
   flex-direction: column;
