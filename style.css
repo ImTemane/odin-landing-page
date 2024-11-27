@@ -61,6 +61,13 @@ a {
   flex: 0 1 40%;
 }
 
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
 img {
   max-width: 400px;
   border-radius: 10px;
