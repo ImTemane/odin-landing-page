@@ -45,3 +45,12 @@ a {
   text-decoration: none;
   color: #b2b5b0;
 }
+
+.main .hero {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
