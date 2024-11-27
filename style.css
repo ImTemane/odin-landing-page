@@ -49,8 +49,17 @@ a {
 .main .hero {
   background-color: #1F2937;
   color: #F9FAF8;
+  padding: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.left, .right {
+  flex: 0 1 30%;
+}
+
+img {
+  width: 500px;
+  flex: 1 1 auto;
+}
