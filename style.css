@@ -44,7 +44,11 @@ ul.links {
 
 a {
   text-decoration: none;
-  color: #b2b5b0;
+  color: #3882f6;
+}
+
+li a  {
+  color: #b2b5b0
 }
 
 .main .hero {
