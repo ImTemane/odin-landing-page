@@ -106,14 +106,21 @@ img {
   display: flex;
   justify-content: center;
   flex: 0 0 auto;
-  gap: 15px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: 0 0 auto;
 }
 
 .fake-img {
   border: 6px solid #3882f6;
   border-radius: 15px;
   height: 100px;
-  margin-bottom: 10px;
+  width: 100px;
+  margin: 0 auto 10px auto;
 }
 
 .infos-text {
