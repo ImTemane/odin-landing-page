@@ -101,3 +101,27 @@ img {
   gap: 15px;
   padding: 2rem;
 }
+
+.infos-container {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 auto;
+  gap: 15px;
+}
+
+.fake-img {
+  border: 6px solid #3882f6;
+  border-radius: 15px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.infos-text {
+  text-align: center;
+}
+
+ h2 {
+  font-size: 38px;
+  font-weight: 900;
+  color: #1F2937;
+}
