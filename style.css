@@ -125,3 +125,21 @@ img {
   font-weight: 900;
   color: #1F2937;
 }
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+}
+
+.quote-text {
+  font-size: 38px;
+  font-weight: 90;
+  color: #1F2937;
+}
+
+.quote-author {
+  text-align: right;
+}
